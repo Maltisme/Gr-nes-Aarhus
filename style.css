@@ -64,6 +64,10 @@ body{ /*Baggrundsfarve*/
   color: #423629;
 }
 
+.billede{
+  border:5px solid #3c754f;
+}
+
 /*Custom Billedestyling*/
 #img-DS{
   width:500;
