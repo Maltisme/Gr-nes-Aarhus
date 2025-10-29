@@ -1,1 +1,67 @@
+@font-face {
+    font-family: "Elephant Pro";   /* Navnet, du vil bruge i CSS */
+    src: url("fonts/ElephantRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
+body{ /*Baggrundsfarve*/
+  background-color: #FEF3DC;
+}
+
+.bar{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0px;
+  top: 0px;
+  height: 70px;
+  width: 100%;
+  background-color: #80D39B;
+  text-align: left;
+  font-size: 24px;
+
+}
+
+
+/*Knap normalt*/
+.selectionbutton{
+  float: right;
+  display: inline-block;
+   height: 50px;
+   width: 125px;
+   text-align: center;
+   cursor: pointer;
+   color: #423629;
+   background: #80D39B;
+   border-radius: 7px;
+   border: 0px;
+
+}
+
+/*Knap når man holder musen over*/
+.selectionbutton:hover {
+  color: #FEF3DC;
+  background: #F0A202;
+}
+
+#hovedtitel{
+  color: #3c754f;
+  font-family: "Elephant Pro", sans-serif;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.titel{
+  color: #3c754f;
+}
+
+.overskrift{
+    color: #71B340;
+}
+
+.tekst{
+  color: #423629;
+}
+
+/*Custom Billedestyling*/
