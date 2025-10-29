@@ -66,6 +66,8 @@ body{ /*Baggrundsfarve*/
 
 .billede{
   border:5px solid #3c754f;
+  display:block;
+  margin:0 auto;
 }
 
 /*Custom Billedestyling*/
