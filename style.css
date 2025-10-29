@@ -5,7 +5,8 @@
     font-style: normal;
 }
 
-body{ /*Baggrundsfarve*/
+/*Baggrundsfarve*/
+body{ 
   background-color: #FEF3DC;
 }
 
@@ -22,7 +23,6 @@ body{ /*Baggrundsfarve*/
   font-size: 24px;
 
 }
-
 
 /*Knap normalt*/
 .selectionbutton{
@@ -73,24 +73,28 @@ body{ /*Baggrundsfarve*/
   display:block;
   margin:0 auto;
 }
-
 /*Custom Billedestyling*/
 #img-DS{
   width:750;
 }
+
 #img-EF{
   width:750;
 }
+
 #img-EB{
   width:750;
 }
+
 #img-ER{
   width:750;
 }
+
 #img-abs{
 width: 450;
 height: 450;
 }
+
 #TO{
     text-align: center;
 }
